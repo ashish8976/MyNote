@@ -4,7 +4,7 @@ import io.ktor.util.*
 import javax.crypto.Mac
 import javax.crypto.spec.SecretKeySpec
 
-private  val hashkey = System.getenv("HASE_SECRET_KEY").toByteArray()
+private  val hashkey = System.getenv("HASH_SECRATE_KEY").toByteArray()
 private  val hmacKey = SecretKeySpec(hashkey,"HmacSha1")
 
 
